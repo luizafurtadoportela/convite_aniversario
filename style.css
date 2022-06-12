@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap');
+
+html, body 
+{ 
+ height: 100%;
+ overflow: scroll
+}
+
+body {
+    text-align: center;
+    background-image: url(assets/a1.png);
+    background-size: 100%;
+    background-position: 50% 50% 50% 50%;
+    background-repeat: no-repeat;
+}
+
+div {
+    padding-top: 380px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.center {
+    text-align: center;
+}
+
+.nome {
+    font-family: 'Dancing Script', cursive;    font-size: 500%;
+}
+
+.idade {
+    font-family: 'Dancing Script', cursive;    font-size: 380%;
+}
+
+p, td {
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.font-size1 {
+    font-size: 200%;
+}
+
+.font-size2 {
+    font-size: 150%;
+}
+
+table {
+    margin-left: 10%;
+}
+
+#barra-rolagem {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+
+button {
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 30px;
+    border: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+a:hover {
+    background-color: burlywood;
+    padding: 15px;
+    border-radius: 10px;
+    border: transparent;
+    font-size: 16px;
+}
+
